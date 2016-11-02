@@ -106,7 +106,7 @@
       background-color: #f4511e;
       color: #fff;
   }
-  .navbar   {
+  .navbar {
       margin-bottom: 0;
       background-color: #f4511e;
       z-index: 9999;
@@ -117,18 +117,17 @@
       border-radius: 0;
       font-family: Montserrat, sans-serif;
   }
-  .navbar,#ddmenu  li a, .navbar .navbar-brand {
+  .navbar li a, .navbar .navbar-brand {
       color: #fff !important;
   }
-  .navbar-nav, #ddmenu  li a:hover, .navbar-nav li.active a {
+  .navbar-nav li a:hover, .navbar-nav li.active a {
       color: #f4511e !important;
       background-color: #fff !important;
   }
-  #ddmenu, .navbar-default .navbar-toggle  {
+  .navbar-default .navbar-toggle {
       border-color: transparent;
       color: #fff !important;
   }
-
   footer .glyphicon {
       font-size: 20px;
       margin-bottom: 20px;
