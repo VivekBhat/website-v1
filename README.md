@@ -1,4 +1,4 @@
-##MY GH PAGE
+##MY WEBSITE
 
 Hi I am Vivek Bhat and this is my gitHub page :)
 
