@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de447ccf-f513-4cae-8a31-92fc4239ff34" name="Default" comment="Jenkins CLI added">
+    <list default="true" id="de447ccf-f513-4cae-8a31-92fc4239ff34" name="Default" comment="Esprima added">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
@@ -32,7 +32,7 @@
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="329">
-              <caret line="754" column="38" lean-forward="true" selection-start-line="754" selection-start-column="38" selection-end-line="754" selection-end-column="38" />
+              <caret line="754" column="42" lean-forward="false" selection-start-line="754" selection-start-column="42" selection-end-line="754" selection-end-column="42" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
@@ -299,14 +299,7 @@
       <workItem from="1484763895697" duration="207000" />
       <workItem from="1486582478601" duration="1751000" />
       <workItem from="1486862566314" duration="840000" />
-      <workItem from="1486864509009" duration="5988000" />
-    </task>
-    <task id="LOCAL-00104" summary="AboutMe Changed">
-      <created>1484187255131</created>
-      <option name="number" value="00104" />
-      <option name="presentableId" value="LOCAL-00104" />
-      <option name="project" value="LOCAL" />
-      <updated>1484187255131</updated>
+      <workItem from="1486864509009" duration="6119000" />
     </task>
     <task id="LOCAL-00105" summary="Quotes">
       <created>1484430211698</created>
@@ -644,11 +637,18 @@
       <option name="project" value="LOCAL" />
       <updated>1486873513681</updated>
     </task>
-    <option name="localTasksCounter" value="153" />
+    <task id="LOCAL-00153" summary="Esprima added">
+      <created>1486873580209</created>
+      <option name="number" value="00153" />
+      <option name="presentableId" value="LOCAL-00153" />
+      <option name="project" value="LOCAL" />
+      <updated>1486873580209</updated>
+    </task>
+    <option name="localTasksCounter" value="154" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29216000" />
+    <option name="totallyTimeSpent" value="29347000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -681,7 +681,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="H2 changed" />
     <MESSAGE value="Linkedin changed" />
     <MESSAGE value="script added" />
     <MESSAGE value="black script added&#10;" />
@@ -706,7 +705,8 @@
     <MESSAGE value="Coursework added" />
     <MESSAGE value="Coursework edited" />
     <MESSAGE value="Jenkins CLI added" />
-    <option name="LAST_COMMIT_MESSAGE" value="Jenkins CLI added" />
+    <MESSAGE value="Esprima added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Esprima added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -2508,7 +2508,7 @@
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="329">
-          <caret line="754" column="38" lean-forward="true" selection-start-line="754" selection-start-column="38" selection-end-line="754" selection-end-column="38" />
+          <caret line="754" column="42" lean-forward="false" selection-start-line="754" selection-start-column="42" selection-end-line="754" selection-end-column="42" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#1;n#div#0;n#html#0;n#!!top" expanded="true" />
