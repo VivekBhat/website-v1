@@ -16,6 +16,7 @@
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
 </head>
+<body>
 <div id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
 
     <nav class="navbar navbar-default navbar-fixed-top">
@@ -1448,114 +1449,112 @@
     </div>
 
 
-</div>
-
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<script>
-    $(document).ready(function () {
-        // Add smooth scrolling to all links in navbar + footer link
-        $(".navbar a, footer a[href='#myPage'], .container-fluid a").on('click', function (event) {
-            // Make sure this.hash has a value before overriding default behavior
-            if (this.hash !== "") {
-                // Prevent default anchor click behavior
-                event.preventDefault();
-
-                // Store hash
-                var hash = this.hash;
-
-                // Using jQuery's animate() method to add smooth page scroll
-                // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-                $('html, body').animate({
-                    scrollTop: $(hash).offset().top
-                }, 900, function () {
-
-                    // Add hash (#) to URL when done scrolling (default click behavior)
-                    window.location.hash = hash;
-                });
-            } // End if
-        });
-
-        $(window).scroll(function () {
-            $(".slideanim").each(function () {
-                var pos = $(this).offset().top;
-
-                var winTop = $(window).scrollTop();
-                if (pos < winTop + 600) {
-                    $(this).addClass("slide");
-                }
-            });
-        });
-    })
-
-
-</script>
-
-
-<footer class="container-fluid text-center">
-    <a href="#myPage" title="To Top">
-        <span class="glyphicon glyphicon-chevron-up"></span>
-    </a>
-    <p>By Vivek Bhat</p>
-
-    <a href="https://twitter.com/bhat175" class="twitter-follow-button" data-show-count="false" height="300">Follow
-        @bhat175</a>
     <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links in navbar + footer link
+            $(".navbar a, footer a[href='#myPage'], .container-fluid a").on('click', function (event) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-</footer>
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 900, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+
+            $(window).scroll(function () {
+                $(".slideanim").each(function () {
+                    var pos = $(this).offset().top;
+
+                    var winTop = $(window).scrollTop();
+                    if (pos < winTop + 600) {
+                        $(this).addClass("slide");
+                    }
+                });
+            });
+        })
 
 
-<script type="text/javascript">
-    $.fn.typer = function (text, options) {
-        options = $.extend({}, {
-            char: ' ',
-            delay: 1000,
-            duration: 600,
-            endless: true
-        }, options || text);
+    </script>
 
-        text = $.isPlainObject(text) ? options.text : text;
 
-        var elem = $(this),
-            isTag = false,
-            c = 0;
+    <footer class="container-fluid text-center">
+        <a href="#myPage" title="To Top">
+            <span class="glyphicon glyphicon-chevron-up"></span>
+        </a>
+        <p>By Vivek Bhat</p>
 
-        (function typetext(i) {
-            var e = ({string: 1, number: 1}[typeof text] ? text : text[i]) + options.char,
-                char = e.substr(c++, 1);
+        <a href="https://twitter.com/bhat175" class="twitter-follow-button" data-show-count="false" height="300">Follow
+            @bhat175</a>
+        <script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-            if (char === '<') {
-                isTag = true;
-            }
-            if (char === '>') {
-                isTag = false;
-            }
-            elem.html(e.substr(0, c));
-            if (c <= e.length) {
-                if (isTag) {
-                    typetext(i);
-                } else {
-                    setTimeout(typetext, options.duration / 10, i);
-                }
-            } else {
+
+    </footer>
+
+
+    <script type="text/javascript">
+        $.fn.typer = function (text, options) {
+            options = $.extend({}, {
+                char: ' ',
+                delay: 1000,
+                duration: 600,
+                endless: true
+            }, options || text);
+
+            text = $.isPlainObject(text) ? options.text : text;
+
+            var elem = $(this),
+                isTag = false,
                 c = 0;
-                i++;
 
-                if (i === text.length && !options.endless) {
-                    return;
-                } else if (i === text.length) {
-                    i = 0;
+            (function typetext(i) {
+                var e = ({string: 1, number: 1}[typeof text] ? text : text[i]) + options.char,
+                    char = e.substr(c++, 1);
+
+                if (char === '<') {
+                    isTag = true;
                 }
-                setTimeout(typetext, options.delay, i);
-            }
-        })(0);
-    };
+                if (char === '>') {
+                    isTag = false;
+                }
+                elem.html(e.substr(0, c));
+                if (c <= e.length) {
+                    if (isTag) {
+                        typetext(i);
+                    } else {
+                        setTimeout(typetext, options.duration / 10, i);
+                    }
+                } else {
+                    c = 0;
+                    i++;
 
-    $('#type').typer(['Graduate Student', '<b>Computer Science</b>', 'North Carolina State University', 'Android-App Developer', 'Java Developer', 'Ruby on Rails', 'Web Applications', 'HTML CSS JavaScript', 'Git, Github', 'Maven, Selenium, Testing ', 'Jenkins-Puppet-Travis CI', 'President IEEE', '<b>Captain</b> College Football Team', 'Part Time Guitarist', 'Swimmer', 'And Much More!']);
+                    if (i === text.length && !options.endless) {
+                        return;
+                    } else if (i === text.length) {
+                        i = 0;
+                    }
+                    setTimeout(typetext, options.delay, i);
+                }
+            })(0);
+        };
 
-</script>
+        $('#type').typer(['Graduate Student', '<b>Computer Science</b>', 'North Carolina State University', 'Android-App Developer', 'Java Developer', 'Ruby on Rails', 'Web Applications', 'HTML CSS JavaScript', 'Git, Github', 'Maven, Selenium, Testing ', 'Jenkins-Puppet-Travis CI', 'President IEEE', '<b>Captain</b> College Football Team', 'Part Time Guitarist', 'Swimmer', 'And Much More!']);
 
+    </script>
+</div>
 </body>
 </html>
 
