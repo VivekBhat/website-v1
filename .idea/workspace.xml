@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de447ccf-f513-4cae-8a31-92fc4239ff34" name="Default" comment="Images fixed">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/scripts/scroll.js" />
+    <list default="true" id="de447ccf-f513-4cae-8a31-92fc4239ff34" name="Default" comment="JS custom Library added">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -32,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="881">
-              <caret line="1451" column="36" lean-forward="false" selection-start-line="1451" selection-start-column="36" selection-end-line="1451" selection-end-column="36" />
+            <state relative-caret-position="566">
+              <caret line="1430" column="53" lean-forward="true" selection-start-line="1430" selection-start-column="53" selection-end-line="1430" selection-end-column="53" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -107,7 +105,7 @@
         <entry file="file://$PROJECT_DIR$/scripts/scroll.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="555">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+              <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -397,14 +395,7 @@
       <workItem from="1487040312836" duration="247000" />
       <workItem from="1487051311383" duration="514000" />
       <workItem from="1487083614889" duration="24000" />
-      <workItem from="1487083983458" duration="179000" />
-    </task>
-    <task id="LOCAL-00115" summary="Linkedin changed">
-      <created>1486583192670</created>
-      <option name="number" value="00115" />
-      <option name="presentableId" value="LOCAL-00115" />
-      <option name="project" value="LOCAL" />
-      <updated>1486583192670</updated>
+      <workItem from="1487083983458" duration="212000" />
     </task>
     <task id="LOCAL-00116" summary="Linkedin changed">
       <created>1486583344404</created>
@@ -742,17 +733,24 @@
       <option name="project" value="LOCAL" />
       <updated>1487051780666</updated>
     </task>
-    <option name="localTasksCounter" value="164" />
+    <task id="LOCAL-00164" summary="JS custom Library added">
+      <created>1487084193823</created>
+      <option name="number" value="00164" />
+      <option name="presentableId" value="LOCAL-00164" />
+      <option name="project" value="LOCAL" />
+      <updated>1487084193824</updated>
+    </task>
+    <option name="localTasksCounter" value="165" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33175000" />
+    <option name="totallyTimeSpent" value="33208000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.21381143" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -779,7 +777,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Jenkins project added" />
     <MESSAGE value="Edited" />
     <MESSAGE value="AboutMe&#10;" />
     <MESSAGE value="Justify added" />
@@ -804,7 +801,8 @@
     <MESSAGE value="shortcut icon added" />
     <MESSAGE value="other projects fixed" />
     <MESSAGE value="Images fixed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Images fixed" />
+    <MESSAGE value="JS custom Library added" />
+    <option name="LAST_COMMIT_MESSAGE" value="JS custom Library added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -3675,7 +3673,7 @@
     <entry file="file://$PROJECT_DIR$/scripts/scroll.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="555">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+          <caret line="39" column="0" lean-forward="false" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
@@ -3684,8 +3682,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="881">
-          <caret line="1451" column="36" lean-forward="false" selection-start-line="1451" selection-start-column="36" selection-end-line="1451" selection-end-column="36" />
+        <state relative-caret-position="566">
+          <caret line="1430" column="53" lean-forward="true" selection-start-line="1430" selection-start-column="53" selection-end-line="1430" selection-end-column="53" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
