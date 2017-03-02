@@ -1,16 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de447ccf-f513-4cae-8a31-92fc4239ff34" name="Default" comment="Scripts edited">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/Resume_24-2-2017.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/Resume_25-1-2017.pdf" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/Resume_DevOps.doc" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/Resume_devops.pdf" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/Resume_.pdf" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Resume.pdf" afterPath="$PROJECT_DIR$/Resources/Resume.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Resume_15-2-2017.doc" afterPath="$PROJECT_DIR$/Resources/Resume_15-2-2017.doc" />
+    <list default="true" id="de447ccf-f513-4cae-8a31-92fc4239ff34" name="Default" comment="Resume added">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -38,8 +30,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="8280">
-              <caret line="1467" column="58" lean-forward="false" selection-start-line="1467" selection-start-column="58" selection-end-line="1467" selection-end-column="58" />
+            <state relative-caret-position="8250">
+              <caret line="1465" column="58" lean-forward="false" selection-start-line="1465" selection-start-column="58" selection-end-line="1465" selection-end-column="58" />
               <folding>
                 <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
                 <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -108,7 +100,7 @@
       <file leaf-file-name="scroll.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/scripts/scroll.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
+            <state relative-caret-position="225">
               <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
@@ -415,14 +407,7 @@
       <workItem from="1487051311383" duration="514000" />
       <workItem from="1487083614889" duration="24000" />
       <workItem from="1487083983458" duration="662000" />
-      <workItem from="1488464633658" duration="140000" />
-    </task>
-    <task id="LOCAL-00119" summary="black badge added">
-      <created>1486583572848</created>
-      <option name="number" value="00119" />
-      <option name="presentableId" value="LOCAL-00119" />
-      <option name="project" value="LOCAL" />
-      <updated>1486583572849</updated>
+      <workItem from="1488464633658" duration="176000" />
     </task>
     <task id="LOCAL-00120" summary="black badge added">
       <created>1486583868417</created>
@@ -760,15 +745,22 @@
       <option name="project" value="LOCAL" />
       <updated>1487084393983</updated>
     </task>
-    <option name="localTasksCounter" value="168" />
+    <task id="LOCAL-00168" summary="Resume added">
+      <created>1488464830763</created>
+      <option name="number" value="00168" />
+      <option name="presentableId" value="LOCAL-00168" />
+      <option name="project" value="LOCAL" />
+      <updated>1488464830764</updated>
+    </task>
+    <option name="localTasksCounter" value="169" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33798000" />
+    <option name="totallyTimeSpent" value="33834000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="710" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24609375" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -797,7 +789,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="Justify added" />
     <MESSAGE value="Alignment" />
     <MESSAGE value="Jenkins" />
     <MESSAGE value="links updated" />
@@ -822,7 +813,8 @@
     <MESSAGE value="JS custom Library added" />
     <MESSAGE value="Typograph added" />
     <MESSAGE value="Scripts edited" />
-    <option name="LAST_COMMIT_MESSAGE" value="Scripts edited" />
+    <MESSAGE value="Resume added" />
+    <option name="LAST_COMMIT_MESSAGE" value="Resume added" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -3479,8 +3471,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8280">
-          <caret line="1467" column="58" lean-forward="false" selection-start-line="1467" selection-start-column="58" selection-end-line="1467" selection-end-column="58" />
+        <state relative-caret-position="8250">
+          <caret line="1465" column="58" lean-forward="false" selection-start-line="1465" selection-start-column="58" selection-end-line="1465" selection-end-column="58" />
           <folding>
             <element signature="n#head#0;n#html#0;n#!!top" expanded="false" />
             <element signature="n#nav#0;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -3547,7 +3539,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/scripts/scroll.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
+        <state relative-caret-position="225">
           <caret line="18" column="47" lean-forward="true" selection-start-line="18" selection-start-column="47" selection-end-line="18" selection-end-column="47" />
           <folding>
             <element signature="e#0#43#0" expanded="false" />
