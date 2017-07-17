@@ -31,8 +31,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="154">
-              <caret line="1418" column="80" lean-forward="false" selection-start-line="1418" selection-start-column="80" selection-end-line="1418" selection-end-column="80" />
+            <state relative-caret-position="251">
+              <caret line="1407" column="38" lean-forward="false" selection-start-line="1407" selection-start-column="38" selection-end-line="1407" selection-end-column="38" />
               <folding>
                 <element signature="n#style#0;n#iframe#0;n#div#0;n#div#17;n#body#0;n#html#0;n#!!top" expanded="true" />
               </folding>
@@ -387,7 +387,7 @@
       <workItem from="1499047766795" duration="1152000" />
       <workItem from="1499747284728" duration="149000" />
       <workItem from="1500161525767" duration="1045000" />
-      <workItem from="1500305502166" duration="169000" />
+      <workItem from="1500305502166" duration="297000" />
     </task>
     <task id="LOCAL-00120" summary="black badge added">
       <created>1486583868417</created>
@@ -736,7 +736,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="47957000" />
+    <option name="totallyTimeSpent" value="48085000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
@@ -1292,8 +1292,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="1418" column="80" lean-forward="false" selection-start-line="1418" selection-start-column="80" selection-end-line="1418" selection-end-column="80" />
+        <state relative-caret-position="251">
+          <caret line="1407" column="38" lean-forward="false" selection-start-line="1407" selection-start-column="38" selection-end-line="1407" selection-end-column="38" />
           <folding>
             <element signature="n#style#0;n#iframe#0;n#div#0;n#div#17;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
