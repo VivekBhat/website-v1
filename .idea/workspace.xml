@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="de447ccf-f513-4cae-8a31-92fc4239ff34" name="Default" comment="Resume added">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Resume.pdf" afterPath="$PROJECT_DIR$/Resources/Resume.pdf" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Resume_7-23-2017.doc" afterPath="$PROJECT_DIR$/Resources/Resume_7-23-2017.doc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Resources/~$sume_7-27-2017.doc" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Resources/Resume.pdf" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Resources/Resume_7-27-2017.pdf" afterPath="$PROJECT_DIR$/Resources/Resume_7-27-2017.pdf" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -797,7 +797,7 @@
       <workItem from="1500780036524" duration="600000" />
       <workItem from="1500784155544" duration="5295000" />
       <workItem from="1500830471871" duration="924000" />
-      <workItem from="1501129477717" duration="12000" />
+      <workItem from="1501129477717" duration="257000" />
     </task>
     <task id="LOCAL-00120" summary="black badge added">
       <created>1486583868417</created>
@@ -1146,7 +1146,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58053000" />
+    <option name="totallyTimeSpent" value="58298000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
