@@ -11,4 +11,4 @@ Link to the gh-page:
 
 ### This is how it looks like: 
 
-![HI](https://github.com/VivekBhat/vivekbhat.github.io/blob/master/cg/exercise5/HI.png)
+![HI](https://github.com/VivekBhat/vivekbhat.github.io/blob/master/cg/exercise5/Hi.png)
