@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Prog 2: Rasterization </title>
+
+    <script type="text/javascript" src="gl-matrix-min.js"></script>
+    <script type="text/javascript" src="rasterize.js"></script>
+    <link href="style.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body onload="main();">
+
+<header>
+    <h1>Prog 2: Rasterization</h1>
+</header>
+
+<nav>
+    <canvas id="myWebGLCanvas" width="512" height="512"></canvas>
+</nav>
+
+<article>
+    <h1>Interactively change view</h1>
+    Use the following key to action table to enable the user to change the view:
+    <ul>
+        <li>a and d — translate view left and right along view X</li>
+        <li>w and s — translate view forward and backward along view Z</li>
+        <li>q and e — translate view up and down along view Y</li>
+        <li>A and D — rotate view left and right around view Y (yaw)</li>
+        <li>W and S — rotate view forward and backward around view X (pitch)</li>
+    </ul>
+
+    <hr>
+
+    <h1>Interactively select a model</h1>
+
+    Use the following key to action table to interactively select a certain model:
+    <ul>
+        <li>left and right — select and highlight the next/previous triangle set (previous off)</li>
+        <li> up and down — select and highlight the next/previous ellipsoid (previous off)</li>
+        <li>space — deselect and turn off highlight</li>
+
+    </ul>
+
+    <hr>
+    <h1>Interactively change lighting on a model</h1>
+    Use the following key to action table to interactively change lighting on the selected model:
+    <ul>
+
+        <li>b — toggle between Phong and Blinn-Phong lighting</li>
+        <li>n — increment the specular integer exponent by 1 (wrap from 20 to 0)</li>
+        <li>1 — increase the ambient weight by 0.1 (wrap from 1 to 0)</li>
+        <li> 2 — increase the diffuse weight by 0.1 (wrap from 1 to 0)</li>
+        <li>3 — increase the specular weight by 0.1 (wrap from 1 to 0)</li>
+    </ul>
+    <hr>
+    <h1>Interactively transform models</h1>
+
+    Use the following key to action table to interactively transform the selected model:
+    <ul>
+        <li>k and ; — translate selection left and right along view X</li>
+        <li>o and l — translate selection forward and backward along view Z</li>
+        <li>i and p — translate selection up and down along view Y</li>
+        <li>K and : — rotate selection left and right around view Y (yaw)</li>
+        <li>O and L — rotate selection forward and backward around view X (pitch)</li>
+        <li>I and P — rotate selection clockwise and counterclockwise around view Z (roll)</li>
+    </ul>
+
+</article>
+
+<footer>
+    Name: Vivek Bhat
+    <br>
+    Unity ID: vbhat
+    <br>
+    Student No: 200152554
+
+
+</footer>
+
+</body>
+</html>
