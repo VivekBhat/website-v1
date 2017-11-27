@@ -418,66 +418,111 @@
                         <li><b><u>Open Source Contribution: </u></b>
                             <ol>
                                 <li>
-                                    <b><i>Expertiza (Final Project): </i></b>
-                                    <ul>
+                                    <b><i>Expertiza Docker Image: </i></b>
+                                    <ol>
                                         <li><strong>About Expertiza:</strong>
                                             Expertiza is an open source project based on Ruby on Rails framework.
                                             Expertiza allows the instructor to create new assignments and customize
-                                            new
-                                            or existing assignments. It also allows the instructor to create a list
-                                            of
-                                            topics the students can sign up for. Students can form teams in
-                                            Expertiza to
-                                            work on various projects and assignments. Students can also peer review
+                                            new or existing assignments. It also allows the instructor to create a list
+                                            of topics the students can sign up for. Students can form teams in
+                                            Expertiza to work on various projects and assignments. Students can also
+                                            peer review
                                             other student's submissions. Expertiza supports submission across
-                                            various
-                                            document types, including the URLs and wiki pages.
+                                            various document types, including the URLs and wiki pages.
                                         </li>
-                                        <!-- <li>Wiki Page for Expertiza: <a href="http://wiki.expertiza.ncsu.edu/index.php/Main_Page">http://wiki.expertiza.ncsu.edu/index.php/Main_Page</a> </li> -->
-                                        <li>What we did/ Final Project Design Document: <a
-                                                href="http://wiki.expertiza.ncsu.edu/index.php/CSC/ECE_517_Fall_2016/E1688._Send_feedback_to_support_%2B_tree_display_improvement"
-                                                target="_blank">Wiki
-                                            Page of changes we made </a></li>
+                                        <li> Why I did this project?:
+        <p>Earlier, to install Expertiza one would have to do the following 3:
+        <ol>
+            <li> Clone the github repo of <a href="http://www.github.com/expertiza/expertiza">Expertiza</a> and manually
+                install all the correct
+                versions of ruby, Java, rails etc. Which hardly ever worked for anyone
+            </li>
+            <li> Use a <a href="http://www.vcl.ncsu.edu">VCL Image </a>: This is slower and requires a proper internet
+                connection to maintain the network
+            </li>
+            <li>
+                Use a <a href="https://docs.google.com/document/d/1cnEi-yMPo5J8IfPKDmyqe_qfvmEoMbxAJiexx608aKY/edit">
+                Virtualbox image</a> of Expertiza: This works fine but is super slow and consumes around 20 Gb of
+                memory. Hence not efficient
+            </li>
+        </ol>
+        I didn't like this and wanted to automate the process with no errors. So I went on to solve this problem using
+        <a href="https://www.docker.com/">Docker</a> and some shell scripts that automate the process of installation of
+        Expertiza and remove any errors that the developer might do.
 
-                                        <li>Pull Request link: <a
-                                                href="https://github.com/expertiza/expertiza/pull/865"
-                                                target="_blank">E1688:
-                                            Final Project, Team154 #865</a></li>
 
-                                        <li>GitHub Fork: <a href="https://github.com/VivekBhat/expertiza"
-                                                            target="_blank">https://github.com/VivekBhat/expertiza </a>
-                                        </li>
-                                    </ul>
-                                </li>
-                                <br>
-                                <li>
-                                    <b><i>Expertiza (OSS Project): </i></b>
-                                    <ul>
-                                        <li>
-        <p>
-            <strong>About Project</strong> Expertiza is an open source project based on Ruby on Rails framework.<br/> In
-            this OSS Project we refactored some code and fixed 8 issues for
-            Expertiza.
-            <br/>
-            For more details check the <a
-                href="http://wiki.expertiza.ncsu.edu/index.php/CSC/ECE_517_Fall_2016/E1642._Refactor_review_response_map.rb"
-                target="_blank"> Problem Statements Solved</a>
         </p>
-
         </li>
+
         <!-- <li>Wiki Page for Expertiza: <a href="http://wiki.expertiza.ncsu.edu/index.php/Main_Page">http://wiki.expertiza.ncsu.edu/index.php/Main_Page</a> </li> -->
-        <li>What we did/ Desing Document <a
-                href="http://wiki.expertiza.ncsu.edu/index.php/CSC/ECE_517_Fall_2016/E1642._Refactor_review_response_map.rb"
-                target="_blank">Wiki Page of changes we made </a></li>
+        <li>What I did? : <a
+                href="https://github.com/expertiza/expertiza/tree/master/docker"
+                target="_blank">GitHub link to the Docker folder</a>
 
-        <li>Pull Request link: <a
-                href="https://github.com/expertiza/expertiza/pull/797 " target="_blank">E1642
-            Refactor
-            review_response_map.rb #797</a></li>
-
-        <li>GitHub Fork: <a href="https://github.com/SmokingSadhus/expertiza "
-                            target="_blank">https://github.com/SmokingSadhus/expertiza </a>
+            <ul>
+                <li>I worked on creating a docker-compose file to combine Ruby on Rails, SQL and Redis that are used for
+                    Expertiza.
+                </li>
+                <li>A new shell script that would connect all the missing dots and ultimately launch expertiza in no
+                    time.
+                </li>
+            </ul>
         </li>
+
+        <li>GitHub Fork: <a href="https://github.com/VivekBhat/expertiza"
+                            target="_blank">https://github.com/VivekBhat/expertiza </a>
+        </li>
+        </li>
+        </ol>
+        <li>
+            <b><i>Expertiza (Final Project): </i></b>
+            <ul>
+                <!-- <li>Wiki Page for Expertiza: <a href="http://wiki.expertiza.ncsu.edu/index.php/Main_Page">http://wiki.expertiza.ncsu.edu/index.php/Main_Page</a> </li> -->
+                <li>What we did/ Final Project Design Document: <a
+                        href="http://wiki.expertiza.ncsu.edu/index.php/CSC/ECE_517_Fall_2016/E1688._Send_feedback_to_support_%2B_tree_display_improvement"
+                        target="_blank">Wiki
+                    Page of changes we made </a></li>
+
+                <li>Pull Request link: <a
+                        href="https://github.com/expertiza/expertiza/pull/865"
+                        target="_blank">E1688:
+                    Final Project, Team154 #865</a></li>
+
+                <li>GitHub Fork: <a href="https://github.com/VivekBhat/expertiza"
+                                    target="_blank">https://github.com/VivekBhat/expertiza </a>
+                </li>
+            </ul>
+        </li>
+        <br>
+        <li>
+            <b><i>Expertiza (OSS Project): </i></b>
+            <ul>
+                <li>
+                    <p>
+                        <strong>About Project</strong> Expertiza is an open source project based on Ruby on Rails
+                        framework.<br/> In
+                        this OSS Project we refactored some code and fixed 8 issues for
+                        Expertiza.
+                        <br/>
+                        For more details check the <a
+                            href="http://wiki.expertiza.ncsu.edu/index.php/CSC/ECE_517_Fall_2016/E1642._Refactor_review_response_map.rb"
+                            target="_blank"> Problem Statements Solved</a>
+                    </p>
+
+                </li>
+                <!-- <li>Wiki Page for Expertiza: <a href="http://wiki.expertiza.ncsu.edu/index.php/Main_Page">http://wiki.expertiza.ncsu.edu/index.php/Main_Page</a> </li> -->
+                <li>What we did/ Desing Document <a
+                        href="http://wiki.expertiza.ncsu.edu/index.php/CSC/ECE_517_Fall_2016/E1642._Refactor_review_response_map.rb"
+                        target="_blank">Wiki Page of changes we made </a></li>
+
+                <li>Pull Request link: <a
+                        href="https://github.com/expertiza/expertiza/pull/797 " target="_blank">E1642
+                    Refactor
+                    review_response_map.rb #797</a></li>
+
+                <li>GitHub Fork: <a href="https://github.com/SmokingSadhus/expertiza "
+                                    target="_blank">https://github.com/SmokingSadhus/expertiza </a>
+                </li>
     </div>
 
 
