@@ -47,4 +47,4 @@ $.fn.typer = function (text, options) {
     })(0);
 };
 
-$('#type').typer(['Graduate Student', '<b>Computer Science</b>', 'North Carolina State University', 'Android-App Developer', 'Java Developer', 'Ruby on Rails', 'Web Applications', 'HTML CSS JavaScript', 'Git, Github', 'Maven, Selenium, Testing ', 'Jenkins-Puppet-Travis CI', 'President IEEE', '<b>Captain</b> College Football Team', 'Part Time Guitarist', 'Swimmer', 'And Much More!']);
+$('#type').typer(['Software Architect', 'Computer Science Grad', 'North Carolina State University', 'Java Developer', 'AWS Solutions Architect Associate', 'Web Applications', 'HTML CSS JavaScript', 'Git, Github', 'Maven, Selenium, Testing ', 'Jenkins-Puppet-Travis CI', 'President IEEE', ' Captain College Football Team', 'Part Time Guitarist', 'Swimmer', 'And Much More!']);
