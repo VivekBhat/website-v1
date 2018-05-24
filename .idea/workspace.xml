@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="de447ccf-f513-4cae-8a31-92fc4239ff34" name="Default" comment="Resume added" />
+    <list default="true" id="de447ccf-f513-4cae-8a31-92fc4239ff34" name="Default" comment="Resume added">
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
@@ -24,7 +26,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="triangles.json" pinned="false" current-in-tab="true">
+      <file leaf-file-name="triangles.json" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/cg/exercise5/triangles.json">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="285">
@@ -54,11 +56,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+            <state relative-caret-position="336">
+              <caret line="167" column="20" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="20" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#4;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -89,7 +91,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>data-linked-resource-type=&quot;page&quot;</find>
       <find>*</find>
       <find>map</find>
       <find>iframe</find>
@@ -119,6 +120,7 @@
       <find>myWebGLCanvas</find>
       <find>President IEEE</find>
       <find>v5</find>
+      <find>objectiv</find>
     </findStrings>
     <replaceStrings>
       <replace>&lt;b&gt;best&lt;/b&gt;</replace>
@@ -153,11 +155,11 @@
         <option value="$PROJECT_DIR$/cg/exercise5/README.md" />
         <option value="$PROJECT_DIR$/web_V5.css" />
         <option value="$PROJECT_DIR$/request.html" />
-        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/params.json" />
         <option value="$PROJECT_DIR$/scripts/Typograph.js" />
         <option value="$APPLICATION_CONFIG_DIR$/scratches/scratch.html" />
         <option value="$PROJECT_DIR$/Shambhavee.html" />
+        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -185,17 +187,6 @@
             <path>
               <item name="vivekbhat.github.io" type="b2602c69:ProjectViewProjectNode" />
               <item name="vivekbhat.github.io" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vivekbhat.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vivekbhat.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Resume" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vivekbhat.github.io" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vivekbhat.github.io" type="462c0819:PsiDirectoryNode" />
-              <item name="Resume" type="462c0819:PsiDirectoryNode" />
-              <item name="doc" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -397,6 +388,7 @@
       <workItem from="1525981765390" duration="2370000" />
       <workItem from="1526956817574" duration="269000" />
       <workItem from="1527120178616" duration="379000" />
+      <workItem from="1527130335440" duration="577000" />
     </task>
     <task id="LOCAL-00120" summary="black badge added">
       <created>1486583868417</created>
@@ -745,10 +737,11 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="69904000" />
+    <option name="totallyTimeSpent" value="70481000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21071176" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -1171,18 +1164,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#4;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#div#4;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/CNAME">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
@@ -1191,5 +1172,17 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/jamia.html" />
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="167" column="20" selection-start-line="167" selection-start-column="20" selection-end-line="167" selection-end-column="20" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#div#1;n#div#0;n#div#1;n#div#0;n#div#3;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#4;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#noscript#0;n#div#4;n#footer#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
   </component>
 </project>
